@@ -20,8 +20,8 @@ vehicles['date_posted'] = vehicles['date_posted'].astype('datetime64[ns]')
 
 st.header('Este es el encabezado')
 
-hist_button = st.button('Construir histograma') 
-disp_button = st.button('Construir grafico de dispersion')
+hist_button = st.checkbox('Construir histograma') 
+disp_button = st.checkbox('Construir grafico de dispersion')
 
 if hist_button: # al hacer clic en el botón
             # escribir un mensaje
