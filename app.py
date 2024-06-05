@@ -18,7 +18,7 @@ vehicles['odometer'] = vehicles['odometer'].astype(int)
 vehicles['is_4wd'] = vehicles['is_4wd'].astype(int)
 vehicles['date_posted'] = vehicles['date_posted'].astype('datetime64[ns]')
 
-st.header('Este es el encabezado')
+st.header('Sprint 5: Herramientas de desarrollo de software')
 
 hist_button = st.checkbox('Construir histograma') 
 disp_button = st.checkbox('Construir grafico de dispersion')
